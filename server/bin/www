@@ -1,0 +1,67 @@
+#!/usr/bin/env node
+
+/**
+ * 本www文件也是一个node的脚本，用于分离配置和启动程序之用
+ */
+
+const app = require('../app');
+const debug = require('debug')('bukanhuisi:server');
+const http = require('http');
+const fs = require('fs');
+const envConfig = require('../config/env/main');
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+const normalizePort = (val) => {
+    const port = parseInt(val, 10);
+
+    if (isNaN(port)) {
+        // 非数字，表明是named pipe
+        return val;
+    }
+
+    if (port >= 0) {
+        // 是正数，表明是端口号
+        return port;
+    }
+
+    return false;
+}
+
+// Get port from environment
+const port = normalizePort(envConfig.port || 3000);
+
+// Create HTTP server.
+const server = http.createServer(app.callback());
+
+server
+    .listen(port)
+    .on('error', (error) => {
+        if (error.syscall !== 'listen') {
+            throw error;
+        }
+
+        let bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
+
+        // 对于常见错误给出更友好的提示
+        switch (error.code) {
+            case 'EACCES':
+                console.error(bind + ' requires elevated privileges');// 提示要提高权限
+                process.exit(1);
+                break;
+            case 'EADDRINUSE':
+                console.error(bind + ' is already in use');// 提示已经在使用
+                process.exit(1);
+                break;
+            default:
+                throw error;
+        }
+    })
+    .on('listening', function() {
+        const address = this.address();
+        const bind = typeof address === 'string' ?
+            'pipe ' + address :
+            'port ' + address.port;
+        debug('Listening on ' + bind);
+    });

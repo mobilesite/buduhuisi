@@ -1,0 +1,4 @@
+{
+  "getHotList": "api/index/getHotList",
+  "login": "api/login/login"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/cross-env NODE_ENV=development nodemon server/bin/www",
+    "debug": "./node_modules/.bin/cross-env NODE_ENV=development DEBUG=*,-not_this nodemon server/bin/www",
+    "pm2": "pm2 start server/bin/www ",
+    "test": "./node_modules/.bin/mocha server/test/ --watch --recursive --reporter tap"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "jade": "~1.11.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.0.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "log4js": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cross-env": "^4.0.0",
+    "mocha": "^3.3.0",
+    "mochawesome": "^2.1.0",
+    "nodemon": "^1.11.0"
+  }
+}

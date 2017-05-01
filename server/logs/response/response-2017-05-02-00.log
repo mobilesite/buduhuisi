@@ -1,0 +1,24 @@
+[2017-05-02 00:12:43.992] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /api/users/getUser?id=1
+request client ip: ::1
+request query: {"id":"1"}
+response time:18
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"拍岸\",\n    \"age\": 18\n  }\n}"
+*************** response log end ***************
+
+[2017-05-02 00:12:46.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /api/users/getUser?id=1
+request client ip: ::1
+request query: {"id":"1"}
+response time:2
+response status: 200
+response body: 
+"{\n  \"code\": 0,\n  \"message\": \"success\",\n  \"data\": {\n    \"username\": \"拍岸\",\n    \"age\": 18\n  }\n}"
+*************** response log end ***************
+

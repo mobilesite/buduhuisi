@@ -1,0 +1,324 @@
+[2017-05-01 21:57:22.040] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:1581
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:57:22.057] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:57:22.077] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /favicon.ico
+request client ip: ::1
+request query: {}
+response time:2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-05-01 21:57:30.600] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:27
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:57:30.621] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:12
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:57:42.228] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:31
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:57:42.243] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:57:47.293] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:33
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:57:47.307] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:57:52.815] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:18
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:57:52.825] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:06.757] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:41
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:06.774] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:10.564] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:13
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:10.577] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:11.143] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:14
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:11.159] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:11.319] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:10
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:11.330] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:11.511] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:31
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:11.525] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:11.628] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:8
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:11.641] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:11.771] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:14
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:11.794] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:9
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2017-05-01 21:59:11.922] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /
+request client ip: ::1
+request query: {}
+response time:15
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>不读会死</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>不读会死</h1><p>Welcome to 不读会死</p></body></html>"
+*************** response log end ***************
+
+[2017-05-01 21:59:11.937] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl: /stylesheets/style.css
+request client ip: ::1
+request query: {}
+response time:1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\buduhuisi\\server\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+

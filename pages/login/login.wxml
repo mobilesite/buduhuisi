@@ -1,0 +1,5 @@
+<view class="page">
+    <input class="input-name" bindinput="inputName"/>
+    <input class="input-password" bindinput="inputPassword"/>
+    <button class="btn-login" bindtap="clickLogin">登陆</button>
+</view>
