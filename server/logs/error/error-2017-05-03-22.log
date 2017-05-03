@@ -1,0 +1,84 @@
+[2017-05-03 22:04:32.979] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl: /users/getUser
+request client ip: ::1
+request query: {}
+response time:5
+err name:userNotExist
+err message:用户不存在
+err stack:userNotExist: 用户不存在
+    at exports.getUser (D:\buduhuisi\server\controllers\users.js:8:15)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at D:\buduhuisi\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at D:\buduhuisi\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\buduhuisi\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at dispatch (D:\buduhuisi\node_modules\koa-router\lib\router.js:317:32)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at D:\buduhuisi\server\utils\responseFormatter\main.js:33:19
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at views (D:\buduhuisi\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2017-05-03 22:05:29.595] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl: /api/users/getUser
+request client ip: ::1
+request query: {}
+response time:3
+err name:userNotExist
+err message:用户不存在
+err stack:userNotExist: 用户不存在
+    at exports.getUser (D:\buduhuisi\server\controllers\users.js:8:15)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at D:\buduhuisi\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at D:\buduhuisi\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\buduhuisi\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at dispatch (D:\buduhuisi\node_modules\koa-router\lib\router.js:317:32)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at dispatch (D:\buduhuisi\node_modules\koa-router\lib\router.js:317:32)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at D:\buduhuisi\server\utils\responseFormatter\main.js:33:19
+*************** error log end ***************
+
+[2017-05-03 22:05:38.115] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl: /users/getUser
+request client ip: ::1
+request query: {}
+response time:1
+err name:userNotExist
+err message:用户不存在
+err stack:userNotExist: 用户不存在
+    at exports.getUser (D:\buduhuisi\server\controllers\users.js:8:15)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at D:\buduhuisi\node_modules\koa-router\lib\router.js:326:16
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at D:\buduhuisi\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\buduhuisi\node_modules\koa-router\lib\router.js:331:31)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at dispatch (D:\buduhuisi\node_modules\koa-router\lib\router.js:317:32)
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at D:\buduhuisi\server\utils\responseFormatter\main.js:33:19
+    at dispatch (D:\buduhuisi\node_modules\koa-compose\index.js:44:32)
+    at next (D:\buduhuisi\node_modules\koa-compose\index.js:45:18)
+    at views (D:\buduhuisi\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+

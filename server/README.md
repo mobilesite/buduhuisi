@@ -675,7 +675,15 @@ describe('Array', function() {
 });
 ```
 
+#### 一些开发工具
 
+#### postman
+
+到[https://www.getpostman.com/](https://www.getpostman.com/)下载postman进行安装。
+
+#### Visual Studio Code
+
+到[https://code.visualstudio.com/](https://code.visualstudio.com/)下载Visual Studio Code进行安装。
 
 
 

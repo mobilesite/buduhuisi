@@ -58,9 +58,7 @@ app.use(responseFormatter(/^\/api/));
 
 // pages routes
 const indexRt = require('./routers/index');
-const usersRt = require('./routers/users');
 app.use(indexRt.routes(), indexRt.allowedMethods());
-app.use(usersRt.routes(), usersRt.allowedMethods());
 
 // api routes
 const apiRt = require('./routers/api/main');
