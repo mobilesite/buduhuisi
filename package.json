@@ -9,8 +9,14 @@
     "test": "./node_modules/.bin/mocha server/test/ --watch --recursive --reporter tap"
   },
   "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "connect-history-api-fallback": "^1.3.0",
     "debug": "^2.6.3",
     "jade": "~1.11.0",
+    "jsonwebtoken": "^7.4.0",
     "koa": "^2.2.0",
     "koa-bodyparser": "^3.2.0",
     "koa-convert": "^1.2.0",
@@ -20,7 +26,11 @@
     "koa-router": "^7.0.1",
     "koa-static": "^3.0.0",
     "koa-views": "^5.2.1",
-    "log4js": "^1.1.1"
+    "log4js": "^1.1.1",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.7",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",

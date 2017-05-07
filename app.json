@@ -24,6 +24,10 @@
             {
                 "pagePath": "pages/my/my",
                 "text": "我的"
+            },
+            {
+                "pagePath": "pages/login/login",
+                "text": "登陆"
             }
         ],
         "borderStyle": "white",

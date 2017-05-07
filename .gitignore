@@ -5,4 +5,7 @@ npm-debug.log
 */*/.DS_Store
 idea
 .idea
-node_modules
+*.log
+*.pid
+server/config/env/private.js
+server/logs/*.log

@@ -1,4 +1,22 @@
-.input-name{
-    padding: 5px;
-    width: 100%;
+page{
+    height: 100%;
+}
+.login-page{
+    -webkit-box-orient:vertical;
+    -webkit-flex-direction:column;
+    flex-direction:column;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-pack:center;
+    justify-content:center;
+    height:100%;
+}
+.weui-cells__division{
+    padding-top:.77em;
+    padding-bottom:.3em;
+    padding-left:15px;
+    padding-right:15px;
+    color:#999999;
+    font-size:14px;
 }

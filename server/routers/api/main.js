@@ -1,12 +1,17 @@
 /**
  * 将所有API router集合在一起，并在其访问路径前面添加一个前缀api
  */
+const envConfig = require('../../config/env/main');
 
 let router = require('koa-router')();
-const userRt = require('./users');
+const usersRt = require('./users');
+const tagsRt = require('./tags');
+const articlesRt = require('./articles');
 
-router.prefix('/api'); // 添加前缀
+router.prefix(envConfig.apiBasePath); // 添加前缀
 
-router.use('/users', userRt.routes(), userRt.allowedMethods());
+router.use('/users', usersRt.routes(), usersRt.allowedMethods());
+router.use('/tags', tagsRt.routes(), tagsRt.allowedMethods());
+router.use('/articles', articlesRt.routes(), articlesRt.allowedMethods());
 
 module.exports = router;

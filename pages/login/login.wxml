@@ -1,5 +1,40 @@
-<view class="page">
-    <input class="input-name" bindinput="inputName"/>
-    <input class="input-password" bindinput="inputPassword"/>
-    <button class="btn-login" bindtap="clickLogin">登陆</button>
+<view class="page login-page">
+    <view class="page__bd">
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-toptips weui-toptips_warn" wx:if="{{topTips}}">{{topTips}}</view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">用户名</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入用户名" bindinput="onUsernameInput"/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">密码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入密码" bindinput="onPasswordInput"/>
+                </view>
+            </view>
+            <!--<view class="weui-cell weui-cell_input weui-cell_vcode">-->
+                <!--<view class="weui-cell__hd">-->
+                    <!--<view class="weui-label">验证码</view>-->
+                <!--</view>-->
+                <!--<view class="weui-cell__bd">-->
+                    <!--<input class="weui-input" placeholder="请输入验证码" />-->
+                <!--</view>-->
+                <!--<view class="weui-cell__ft">-->
+                    <!--<image class="weui-vcode-img" src="../../images/vcode.jpg" style="width: 108px"></image>-->
+                <!--</view>-->
+            <!--</view>-->
+        </view>
+        <view class="weui-cells__tips"></view>
+
+        <view class="weui-cells__division"></view>
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="onLoginTap" disabled="{{topTips || !username || !password}}">登陆</button>
+        </view>
+    </view>
 </view>

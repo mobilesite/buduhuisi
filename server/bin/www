@@ -30,28 +30,30 @@ const normalizePort = (val) => {
 }
 
 // Get port from environment
-const port = normalizePort(envConfig.port || 3000);
+const port = normalizePort(envConfig.port);
 
 // Create HTTP server.
 const server = http.createServer(app.callback());
 
 server
-    .listen(port)
+    .listen(port, () => {
+        console.log(`The server is running at port: ${port}`);
+    })
     .on('error', (error) => {
         if (error.syscall !== 'listen') {
             throw error;
         }
 
-        let bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
+        let bind = typeof port === 'string' ? `Pipe ${port}` : `Port ${port}`;
 
         // 对于常见错误给出更友好的提示
         switch (error.code) {
             case 'EACCES':
-                console.error(bind + ' requires elevated privileges');// 提示要提高权限
+                console.error(`${bind} requires elevated privileges`);// 提示要提高权限
                 process.exit(1);
                 break;
             case 'EADDRINUSE':
-                console.error(bind + ' is already in use');// 提示已经在使用
+                console.error(`${bind} is already in use`);// 提示已经在使用
                 process.exit(1);
                 break;
             default:
@@ -61,7 +63,7 @@ server
     .on('listening', function() {
         const address = this.address();
         const bind = typeof address === 'string' ?
-            'pipe ' + address :
-            'port ' + address.port;
-        debug('Listening on ' + bind);
+            `pipe ${address}` :
+            `port ${address.port}`;
+        debug(`Listening on ${bind}`);
     });
