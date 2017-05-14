@@ -59,7 +59,7 @@ app.use(views(__dirname + '/views', {
 
 注意：`app.use(views(...))`的执行必须在router之前。
 
-可以看到，koa-views在使用的时候包含两个参数ions：
+可以看到，koa-views在使用的时候包含两个参数options：
 
 一个是root，指明view文件的绝对路径（注意这里不能用相对路径）；
 
@@ -127,7 +127,7 @@ koa-onerror 会自动地把err.status当作response的status code, 而且自动�
 const bodyParser = require('koa-bodyparser');
 app.use(bodyParser());
 app.use(async ctx => {
-  // the parsed body will store in ctx.request.body
+  // 用了`app.use(bodyParser());`之后，the parsed body will store in ctx.request.body
   // if nothing was parsed, body will be an empty object {}
   ctx.body = ctx.request.body;
 });
@@ -338,7 +338,7 @@ router.get('user', '/users/:id', function (ctx, next) {
  // ...
 });
 
-outer.url('/users/:id', {id: 1});
+router.url('/users/:id', {id: 1});
 或者：
 router.url('user', 3);
 // => "/users/3"
@@ -387,7 +387,7 @@ DEBUG_COLORS是用来配置是否以彩色输出debug信息的，默认情况下
 
 #### nodemon模块
 
-nodemon的作用是在你的服务正在运行的情况下，修改文件可以自动重启服务。
+**nodemon的作用是在你的服务正在运行的情况下，修改文件可以自动重启服务。**
 
 ```
 npm install --save-dev nodemon
@@ -414,7 +414,6 @@ const logConfig = require('../config/log/main'); // 加载配置文件
 log4js.configure(logConfig); // 将配置添加到log4js中
 
 let logUtil = {};
-
 
 // 确定目录是否存在，如果不存在则创建目录
 const createPath = (pathStr) => {
@@ -462,22 +461,22 @@ logUtil.logResponse = function (ctx, resTime) {
 
 //格式化响应日志
 const formatRes = (ctx, resTime) => {
-    var logText = new String();
+    var logText ='';
 
     //响应日志开始
-    logText += "\n" + "*************** response log start ***************" + "\n";
+    logText += `\n*************** response log start ***************\n`;
 
     //添加请求日志
     logText += formatReqLog(ctx.request, resTime);
 
     //响应状态码
-    logText += "response status: " + ctx.status + "\n";
+    logText += `response status: ${ctx.status}\n`;
 
     //响应内容
-    logText += "response body: " + "\n" + JSON.stringify(ctx.body) + "\n";
+    logText += `response body: \n ${JSON.stringify(ctx.body)} \n`;
 
     //响应日志结束
-    logText += "*************** response log end ***************" + "\n";
+    logText += `*************** response log end ***************\n`;
 
     return logText;
 }
@@ -547,48 +546,48 @@ const rootPath = pathResolve(__dirname);
 const baseLogPath = pathResolve(__dirname, '../../logs')
 
 //错误日志目录
-const errorPath = "/error";
+const errorPath = '/error';
 //错误日志文件名
-const errorFileName = "error";
+const errorFileName = 'error';
 //错误日志输出完整路径
-const errorLogPath = baseLogPath + errorPath + "/" + errorFileName;
+const errorLogPath = baseLogPath + errorPath + '/' + errorFileName;
 
 //响应日志目录
-const responsePath = "/response";
+const responsePath = '/response';
 //响应日志文件名
-const responseFileName = "response";
+const responseFileName = 'response';
 //响应日志输出完整路径
-const responseLogPath = baseLogPath + responsePath + "/" + responseFileName;
+const responseLogPath = baseLogPath + responsePath + '/' + responseFileName;
 
 module.exports = {
     // 定义两个输出源（appenders）
-    "appenders": [
+    'appenders': [
         // 错误日志
         {
-            "category":"errorLogger",             //logger名称
-            "type": "dateFile",                   //日志类型
-            "filename": errorLogPath,             //日志输出位置
-            "alwaysIncludePattern":true,          //是否总是有后缀名
-            "pattern": "-yyyy-MM-dd-hh.log",      //后缀，每小时创建一个新的日志文件
-            "path": errorPath                     //自定义属性，错误日志的根目录
+            'category':'errorLogger',             //logger名称
+            'type': 'dateFile',                   //日志类型
+            'filename': errorLogPath,             //日志输出位置
+            'alwaysIncludePattern':true,          //是否总是有后缀名
+            'pattern': '-yyyy-MM-dd-hh.log',      //后缀，每小时创建一个新的日志文件
+            'path': errorPath                     //自定义属性，错误日志的根目录
         },
         // 响应日志
         {
-            "category":"resLogger",
-            "type": "dateFile",
-            "filename": responseLogPath,
-            "alwaysIncludePattern":true,
-            "pattern": "-yyyy-MM-dd-hh.log",
-            "path": responsePath
+            'category':'resLogger',
+            'type': 'dateFile',
+            'filename': responseLogPath,
+            'alwaysIncludePattern':true,
+            'pattern': '-yyyy-MM-dd-hh.log',
+            'path': responsePath
         }
     ],
     //设置logger名称对应的的日志等级
-    "levels": {
-        "errorLogger": "ERROR",
-        "resLogger": "ALL"
+    'levels': {
+        'errorLogger': 'ERROR',
+        'resLogger': 'ALL'
     },
     //设置log输出的根目录
-    "baseLogPath": baseLogPath
+    'baseLogPath': baseLogPath
 }
 ```
 
@@ -600,18 +599,18 @@ const logUtil = require('./utils/logUtil');
 // logger
 app.use(async (ctx, next) => {
     //响应开始时间
-    const start = new Date();
+    const start = Date.now();
     //请求处理完毕的时刻 减去 开始处理请求的时刻 = 处理请求所花掉的时间
     let ms;
     try {
         await next();
 
-        ms = new Date() - start;
+        ms = Date.now() - start;
 
         //记录响应日志
         logUtil.logResponse(ctx, ms);
     } catch (error) {
-        ms = new Date() - start;
+        ms = Date.now() - start;
 
         //记录异常日志
         logUtil.logError(ctx, error, ms);
